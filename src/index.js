@@ -36,24 +36,24 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: '/about',
+        path: '/mg/about',
         element: <About />,
       },
       {
-        path: '/contact',
+        path: '/mg/contact',
         element: <Contact />,
       },
       {
-        path: '/blog',
+        path: '/mg/blog',
         element: <Blog />,
       
       },
       {
-        path: '/appointments',
+        path: '/mg/appointments',
         element: < Appointments />,
       },
       {
-        path: '/opinions',
+        path: '/mg/opinions',
         element: <Opinions />,
       },
     ],
