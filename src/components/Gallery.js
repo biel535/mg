@@ -3,9 +3,9 @@ import './Gallery.css';
 
 const Gallery = () => {
   const [images] = useState([
-    process.env.PUBLIC_URL + '/images/gabinet/gabinet1.jpg',
-    process.env.PUBLIC_URL + '/images/gabinet/01.png',
-    process.env.PUBLIC_URL + '/images/gabinet/02.jpg',
+    'https://raw.githubusercontent.com/biel535/mg/main/public/images/gabinet/gabinet1.jpg',
+    'https://raw.githubusercontent.com/biel535/mg/main/public/images/gabinet/01.png',
+    'https://raw.githubusercontent.com/biel535/mg/main/public/images/gabinet/02.jpg',
     
   ]);
 
