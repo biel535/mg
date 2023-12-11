@@ -1,0 +1,58 @@
+#kontakt {
+  max-width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+.Kontakt-heading {
+  padding: 2rem;
+}
+
+
+.map-container {
+  padding: 5rem;
+  background-color: #79afd6;
+  color: #fff;
+}
+
+.map-container h1 {
+  color: #fff;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.col {
+  flex: 1;
+  padding: 1.5rem;
+  justify-content: center;
+  
+
+}
+.kontak-txt {
+  line-height: 2rem;
+  font-weight: 700;
+}
+
+.map-icon {
+  font-size: 2rem;
+  margin-right: 10px;
+}
+
+
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column;
+    line-height: 2.5rem;
+    align-items: center;
+  }
+  .map-container {
+    padding: 1.5rem;
+  }
+}

@@ -1,0 +1,34 @@
+.hero-container {
+  background: url('./../../public/images/stockphoto.jpg') center center/cover 
+  no-repeat;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.2);
+  object-fit: contain;
+}
+
+.hero-container > h1 {
+  color: #fff;
+  font-size: 6rem;
+  max-width: fit-content;
+}
+
+.hero-container > p {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: #fff;
+  font-size: 2rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+@media (max-width: 800px) {
+  .hero-btns  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

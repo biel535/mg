@@ -1,0 +1,17 @@
+.footer-container {
+  background-color: #242424;
+  padding: 4rem 0 4rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.footer-container h2 {
+  color: rgb(92, 92, 92);
+  font-size: 1.3rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+

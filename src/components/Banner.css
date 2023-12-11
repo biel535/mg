@@ -1,0 +1,51 @@
+/* Banner.css */
+.banner-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #4267B2;
+  color:  white;
+  padding: 1rem;
+  
+}
+a {
+  text-decoration: none;
+  color:  white;
+}
+.facebook-icon {
+   margin-right: 10px;
+}
+.instagram-icon {
+ 
+  margin-right: 10px;
+}
+
+.fb-text {
+  font-size: 1.5rem;
+ 
+}
+.ig-text {
+  font-size: 1.5rem;
+ 
+}
+.h2-container {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  height: 100%; 
+  
+}
+.h2-contentt {
+  font-size: 1.8rem;
+  text-align: justify;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+  line-height: 3.5rem;
+}
+
+@media (max-width: 800px) {
+  .banner-container {
+    flex-direction: column;
+  }
+}
