@@ -9,14 +9,14 @@ function HeroSection() {
     <h1>Wyrusz w podróż po zdrowie: </h1>
     <p>Nie czekaj</p>
     <div className="hero-btns">
-    <Link to="/appointments">
+    <Link to="/mg/appointments">
       <Button className="btns"
       buttonStyle="btn--outline"
       buttonSize="btn--large">
         UMÓW SIĘ NA WIZYTĘ
       </Button>
       </Link>
-      <Link to="/opinions">
+      <Link to="/mg/opinions">
       <Button className="btns"
       buttonStyle="btn--primary"
       buttonSize="btn--large">
