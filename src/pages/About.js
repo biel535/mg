@@ -32,7 +32,7 @@ function About() {
       radzenia sobie ze swoimi dolegliwościami na co dzień. 
       </p>
       <div className="button-but">
-      <Link to="/appointments"><button className="omnie-button">Umów się na wizytę</button></Link>
+      <Link to="/mg/appointments"><button className="omnie-button">Umów się na wizytę</button></Link>
       </div>
       </div>
       </div>
