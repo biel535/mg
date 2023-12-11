@@ -32,7 +32,7 @@ const router = createBrowserRouter([
     element: <AppLayout />,
     children: [
       {
-        index: true,
+        path: '/mg',
         element: <Home />,
       },
       {
