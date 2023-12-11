@@ -16,7 +16,7 @@ function Navbar() {
     <IconContext.Provider value={{ color:  "#79afd6" }}>
       <nav className="navbar">
         <div className="navbar-container">
-          <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
+          <Link to="/mg" className="navbar-logo" onClick={closeMobileMenu}>
             <FaHandHolding className="navbar-icon" color="#79afd6" />
             NeuroWyspa
           </Link>
@@ -26,7 +26,7 @@ function Navbar() {
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
               <NavLink
-                to="/"
+                to="/mg"
                 className={({ isActive }) =>
                   "nav-links" + (isActive ? " activated" : "")
                 }
@@ -37,7 +37,7 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <NavLink
-                to="/about"
+                to="/mg/about"
                 className={({ isActive }) =>
                   "nav-links" + (isActive ? " activated" : "")
                 }
@@ -48,7 +48,7 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <NavLink
-                to="/contact"
+                to="/mg/contact"
                 className={({ isActive }) =>
                   "nav-links" + (isActive ? " activated" : "")
                 }
@@ -59,7 +59,7 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <NavLink
-                to="/blog"
+                to="/mg/blog"
                 className={({ isActive }) =>
                   "nav-links" + (isActive ? " activated" : "")
                 }
@@ -70,7 +70,7 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <NavLink
-                to="/appointments"
+                to="/mg/appointments"
                 className={({ isActive }) =>
                   "nav-links1" + (isActive ? " activated" : "")
                 }
