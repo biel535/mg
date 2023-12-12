@@ -58,6 +58,7 @@ const router = createBrowserRouter([
       },
     ],
   },
+  { basename: '/mg' }
 ]);
 
 createRoot(document.getElementById('root')).render(
